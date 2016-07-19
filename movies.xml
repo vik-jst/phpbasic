@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+	<moviestore>
+	<movie>
+		<name>Ghajni</name>
+		<hero>Amir Khan</hero>
+	</movie>
+	<movie>
+		<name>3 idiots</name>
+		<hero>Amir Khan</hero>
+	</movie>
+	<movie>
+		<name>Bodyguard</name>
+		<hero>Salman Khan</hero>
+	</movie>
+	<movie>
+		<name>Tere Naam</name>
+		<hero>Salman Khan</hero>
+	</movie>
+</moviestore>
+

@@ -1,0 +1,11 @@
+li{
+	display:inline;
+}
+.content
+{
+background: paleturquoise none repeat scroll 0 0;
+    border-style: solid;
+    border-width: 1px;
+    padding: 25px 15px 15px 50px;
+    width: 100%;
+}
