@@ -9,27 +9,29 @@
 
 	<body>
 	<div class="content" >
-	<a class="btn btn-primary btn-sm" href="index.php">Go Back</a>
-	<?php
+	<a class="btn btn-primary btn-sm" href="index.php">Go Back</a><?php
 	
 	class BaseClass {
 
-		function __construct() {
-			print "In BaseClass constructor\n";
+		function __construct( $name ) {
+			print "In BaseClass constructor \n";
+			echo $name;
 		}
 
 	}
 
 	class SubClass extends BaseClass {
 		
-		function __construct() {
-			parent::__construct();
+		function __construct( $name ) {
+			parent::__construct( $name );
 			print "<br>"."In SubClass constructor\n";
 		}
+		
 
 	}
-
-	$subClass = new SubClass();
+	
+	$subClass = new SubClass('vik');
+	//$subClass->name();
 	?>
 	</div>
 	</body>

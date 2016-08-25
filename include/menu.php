@@ -1,18 +1,3 @@
-<script type="text/javascript">
-
-$('a[href="index.php"]').click(function() {
-    alert('works');
-});  
-
-
-  $("a[href='Javascript.php']").click(function(){
-
-window.location.href = "Javascript.php";
-
-  });
-
-
-</script>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -30,6 +15,7 @@ window.location.href = "Javascript.php";
           <a class="dropdown-toggle" data-toggle="dropdown" href="">Ajax <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="Ajax_insert.php">Ajax Insert</li>
+            <li><a href="Ajax_load.php">Ajax <b>load()</b></li>
             <li><a href="Ajax_fileupload.php">Ajax Fileupload</a></li>
             <li><a href="Ajax_serialize.php">Jquery serialize</a></li>
             <li><a href="Ajax_serializeArray.php">Jquery serializeArray</a></li>
@@ -39,9 +25,19 @@ window.location.href = "Javascript.php";
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="">JQUERY<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="jquery_addclass.php">Addclass</li>
             <li><a href="jquery_tab.php">Tab</a></li>
             <li><a href="jquery_addtocard.php">Addtocard</a></li>
+            <li><a href="Js_selector.php"> Selectors</a></li>
+            <li><a href="jQuery_find.php">finfd <b>traverser</b> </a></li>
+            <li><a href="jQuery_append.php">append <b>Move Element</b> </a></li>
+            <li><a href="jQuery_appendTo.php"> appendTo <b>Move Element</b></a></li>
+            <li><a href="jQuery_before.php"> before <b>Move Element</b></a></li>
+            <li><a href="jQuery_after.php"> after <b>Move Element</b></a></li>
+            <li><a href="jquery_addclass.php">addclass() <b>Attribute></b></a></li>
+            <li><a href="jquery_css.php">css() <b>Attribute></b></a></li>
+            <li><a href="jquery_attr.php">attr() <b>Attribute></b></a></li>
+            <li><a href="jquery_html.php">html() <b>Attribute></b></a></li>
+            <li><a href="jquery_val.php">val() <b>Attribute></b></a></li>
           </ul>
         </li>
          <li class="dropdown">
@@ -49,18 +45,17 @@ window.location.href = "Javascript.php";
           <ul class="dropdown-menu">
             <li><a href="Json_from_back_end.php">Json_from_back_end.php</a></li>
             <li><a href="Json_Object.php">Json_Object</a></li>
-          
           </ul>
         </li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="php_start.php">PHP <span class="caret"></span></a>
           <ul class="dropdown-menu">
+            <li><a href="php_continue.php">Continue Statement</a></li>
             <li><a href="php_array.php">Array</a></li>
             <li><a href="php_array_of_object.php">PHP Array object</a></li>
             <li><a href="php_foreach.php">For Each</a></li>
             <li><a href="php_xml.php">PHP XML</a></li>
             <li><a href="Json_Object.php">Json_Object</a></li>
-
             <li><a href="php_serialize_array.php">Serialize Array</a></li>
           </ul>
         </li>
@@ -71,9 +66,16 @@ window.location.href = "Javascript.php";
             <li><a href="opps_Static.php">Static</a></li>
             <li><a href="oops_construct.php">Construct</a></li>
             <li><a href="oops_inheritance.php">Inheritance</a></li>
+            <li><a href="oops_overriding.php">Overriding</a></li>
             <li><a href="oops_abstract.php">Abstract</a></li>
             <li><a href="oops_interface.php">Interface</a></li>
             <li><a href="oops_parent::__construct().php">parent::__construct()</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="">CSS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="css_basic.php">Css Basic </a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -84,6 +86,7 @@ window.location.href = "Javascript.php";
             <li><a href="lg_factorial.php">Factorial</a></li>
             <li><a href="lg_sum_of_natural.php">Sum of Natural Num</a></li>
             <li><a href="lg_increment.php">Increment</a></li>
+             <li><a href="lg_if.php">IF</a></li>
           </ul>
         </li>
       </ul>

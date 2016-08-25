@@ -8,16 +8,12 @@
 <?php 
 echo "Output is:";
 include 'application-top/classes.php';
-if (class_exists('xyz'))
-{
+if (class_exists('xyz')) {
 $obj = new xyz();
 $obj ->get_myname();	
-}
-else
-{
-	echo "something went wrong";
-}
-?>
+} else {
+    echo "something went wrong";
+}?>
 </p>
 </div>
 </div>

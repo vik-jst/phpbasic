@@ -3,13 +3,9 @@
     {
     	$name=$_POST['stu_name'];
     	echo $name;
-echo "heloo";
-die();
+        echo "heloo";
+        die();
     	include 'db.php';
-    	echo "<pre>";
-    	print_r($_POST['insert']));
-echo "</pre>";
-die();
 		$emp_name=$_POST['name'];
 		$desination=$_POST['desi'];
 		$phone=$_POST['phn'];
